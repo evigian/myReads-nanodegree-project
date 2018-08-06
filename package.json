@@ -1,6 +1,7 @@
 {
   "name": "myReads-nanodegree-project",
   "version": "0.1.0",
+  "private": true,
   "homepage": "https://evigian.github.io/myReads-nanodegree-project/",
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
