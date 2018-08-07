@@ -2,8 +2,13 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import BookItems from "./BookItems";
 import BookIcon from "./icons/bookreviews.jpg";
+import PropTypes from "prop-types";
 
 class BookShelves extends Component {
+  static propTypes = {
+    changeShelf: PropTypes.func.isRequired
+  };
+
   render() {
     return (
       <div className="list-books">
