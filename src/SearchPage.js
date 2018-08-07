@@ -7,11 +7,7 @@ import * as BooksAPI from "./BooksAPI";
 
 class SearchPage extends Component {
   static propTypes = {
-    //when I write 'static propTypes' I have warnings on the console and don't know what to do although I researched about it
-    //when I write a different word like properTypes there's no warning!
-    query: PropTypes.string.isRequired,
-    results: PropTypes.array.isRequired,
-    onChange: PropTypes.func.isRequired
+    changeShelf: PropTypes.func.isRequired
   };
 
   state = {
@@ -41,6 +37,7 @@ class SearchPage extends Component {
   };
 
   render() {
+   
     return (
       <div className="search-books">
         <div className="search-books-bar">
