@@ -4,7 +4,7 @@ This is the 7th project created for the FEND Google Developer Nanodegree at Udac
 
 The starter code was provided by Udacity and was cloned from the following repository where you can see all the details about the project and its development: [Starter code](https://github.com/udacity/reactnd-project-myreads-starter).
 
-The development of the project was based on the relative lessons of the course, the study jams performed by Udacity students and extra resources like Tyler McGinnis React Bootcamp [React Bootcamp](https://tylermcginnis.com/free-react-bootcamp/).
+The development of the project was based on the relative lessons of the course, the study jams performed by Udacity students and extra resources like Tyler McGinnis [React Bootcamp](https://tylermcginnis.com/free-react-bootcamp/).
 
 ## How to run the project
 
