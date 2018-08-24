@@ -44,7 +44,7 @@ class App extends React.Component {
       <div className="app">
         <Route
           exact
-          path="/"
+          path="https://evigian.github.io/myReads-nanodegree-project/"
           render={() => (
             <BookShelves
               books={this.state.books}
@@ -54,7 +54,7 @@ class App extends React.Component {
         />
 
         <Route
-          path="/search"
+          path="https://evigian.github.io/myReads-nanodegree-project/search"
           render={() => (
             <SearchPage
               books={this.state.books}
